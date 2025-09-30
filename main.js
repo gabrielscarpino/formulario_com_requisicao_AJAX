@@ -61,7 +61,7 @@ $(document).ready(function () {
 
             //catch = except = exceção
             .catch(function (erro) {
-                alert("Ocorreu um erro ao buscar o endereço. Digite um cep válido ou tente novamente mais tarde.")
+                alert("Ocorreu um erro ao buscar o endereço. Digite um cep válido (00000-000) ou tente novamente mais tarde.")
             })
 
             //finally = executa de qualquer jeito
