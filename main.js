@@ -1,5 +1,6 @@
 
 // Solicitando ajax com js puro
+
 // //ajax - Asynchronous javaScript and XML
 
 // document.addEventListener('DOMContentLoaded', function(){
@@ -43,7 +44,7 @@ $(document).ready(function () {
 
         // })
 
-        //solicitando com fetch API
+        //solicitando com a API fetch
 
         //then = try = bloco positivo
         fetch(endpoint).then(function (resposta) {
@@ -60,7 +61,7 @@ $(document).ready(function () {
 
             //catch = except = exceção
             .catch(function (erro) {
-                alert("Ocorreu um erro ao buscar o endereço. Digite um cep válido ou tente novamente mais tarde")
+                alert("Ocorreu um erro ao buscar o endereço. Digite um cep válido ou tente novamente mais tarde.")
             })
 
             //finally = executa de qualquer jeito
