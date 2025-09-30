@@ -58,9 +58,9 @@ $(document).ready(function () {
                 $('#endereco').val(endereco)
             })
 
-            //catch = except = excessão
+            //catch = except = exceção
             .catch(function (erro) {
-                alert("Ocorreu um erro ao buscar o endereço. Tente novamente mais tarde")
+                alert("Ocorreu um erro ao buscar o endereço. Digite um cep válido ou tente novamente mais tarde")
             })
 
             //finally = executa de qualquer jeito
